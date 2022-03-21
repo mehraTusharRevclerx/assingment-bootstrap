@@ -7,9 +7,7 @@
   background: transparent;
   border: none;
 }
-header {
-  padding: 0 0 0 0;
-}
+
 header,
 .banner-sec {
   background: #52bad7;
@@ -190,9 +188,46 @@ header,
   color: #025b8f;
 }
 
-.widget  {
+.widget {
   color: #96a09c;
 }
 .widget p {
   color: #96a09c;
+}
+.carousel-caption {
+  position: relative;
+  bottom: 0;
+  padding-top: 0;
+  text-shadow: none;
+}
+.carousel-inner {
+  padding: 50px 0;
+}
+h2.widget-title,
+h5.widget-title {
+  color: #000;
+  font-weight: 600;
+}
+.no-box {
+  margin: 10px 0 0 0;
+}
+.main-footer .container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.widget a {
+  text-decoration: none;
+  color: #025b8f;
+}
+.widget p:nth-of-type(1) {
+  margin-bottom: 0;
+}
+div.text {
+  color: #96a09c;
+}
+.title h4 {
+  font-weight: 600;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
 }
