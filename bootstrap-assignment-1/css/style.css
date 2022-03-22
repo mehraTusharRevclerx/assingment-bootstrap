@@ -26,7 +26,7 @@ header,
 }
 .banner {
   background: top / cover no-repeat url("/images/world.svg");
-  height: 80vh;
+  height: 500px;
 }
 
 .banner p a {
@@ -112,6 +112,16 @@ header,
     filter: none;
     transform: scale(1.1);
   } */
+@media (max-width: 1200px) {
+  .clients img {
+    width: 40%;
+  }
+}
+@media (max-width: 991px) {
+  .clients img {
+    width: 40%;
+  }
+}
 @media (max-width: 768px) {
   .clients img {
     width: 40%;
@@ -123,6 +133,12 @@ header,
   }
 }
 
+@media (max-width: 991px) {
+  .card-sec .box .box-part {
+    text-align: center;
+  }
+}
+
 .three-avatar-sec {
   background: #e5e9ec;
 }
@@ -130,6 +146,7 @@ header,
   padding: 100px 0 0 0;
   width: 40%;
 }
+
 .progress {
   height: 4px;
 }
@@ -161,7 +178,7 @@ header,
   max-width: 60%;
 }
 .carousel-caption p {
-  padding: 0 10rem;
+  /* padding: 0 10rem; */
   color: #8f9192;
 }
 .links-sec {
@@ -230,4 +247,7 @@ div.text {
 }
 .navbar-default .navbar-nav > li > a {
   color: #fff;
+}
+.links-sec .box .container .row .box-part i {
+  font-size: 30px;
 }
