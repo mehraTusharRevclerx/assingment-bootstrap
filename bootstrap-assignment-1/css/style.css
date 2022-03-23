@@ -251,3 +251,6 @@ div.text {
 .links-sec .box .container .row .box-part i {
   font-size: 30px;
 }
+.links-sec .box .container .row .box-part i::before {
+  font-size: 30px;
+}
