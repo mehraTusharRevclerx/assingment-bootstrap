@@ -26,6 +26,7 @@
         font-size: 2.5rem;
       
       }
+    
   }
   
 @media (max-width: 575px) {
@@ -33,7 +34,70 @@
       width: 30%;
     }
     .banner-sec  .carousel-inner  .carousel-caption .h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
       
+      }
+      .banner-sec  .carousel-inner  .carousel-caption button {
+        font-size: 1rem;
+      
+      }
+    .banner-sec  .carousel-inner  .carousel-caption a {
+        font-size: 1.1rem;
+      
+      }
+      .carousel-caption {
+        bottom: 0rem;
+        top: 0.1rem;
+      }
+    }
+
+
+    @media (max-width: 482px) {
+    
+      
+      .carousel-caption {
+        bottom: 0px;
+        top: -2rem;
+      }
+  }
+@media (max-width: 425px) {
+    
+    .banner-sec  .carousel-inner  .carousel-caption .h1 {
+        font-size: 1rem;
+      
+      }
+      .banner-sec  .carousel-inner  .carousel-caption button {
+        font-size: 0.8rem;
+      
+      }
+    .banner-sec  .carousel-inner  .carousel-caption a {
+        font-size: 0.9rem;
+      
+      }
+      
+      .carousel-caption {
+        bottom: 0px;
+        top: -4rem;
+      }
+  }
+
+@media (max-width: 320px) {
+    
+    .banner-sec  .carousel-inner  .carousel-caption .h1 {
+        font-size: 1rem;
+      
+      }
+    .banner-sec  .carousel-inner  .carousel-caption button {
+        font-size: 0.8rem;
+      
+      }
+    .banner-sec  .carousel-inner  .carousel-caption a {
+        font-size: 0.9rem;
+      
+      }
+      
+      .carousel-caption {
+        bottom: 0px;
+        top: -6rem;
       }
   }
